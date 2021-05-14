@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN" "http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="GENERATOR" content="LyX 2.3.5.2" />
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+<title>COL783: Assignment 3</title>
+<style type='text/css'>
+/* Layout-provided Styles */
+h1.title {
+font-size: x-large;
+margin-bottom: 1ex;
+text-align: center;
+
+}
+div.author {
+font-size: large;
+margin-top: 1.3ex;
+margin-bottom: 0.7ex;
+text-align: center;
+
+}
+h2.section {
+font-weight: bold;
+font-size: x-large;
+margin-top: 1.3ex;
+margin-bottom: 0.7ex;
+text-align: left;
+
+}
+div.standard {
+	margin-bottom: 2ex;
+}
+div.plain_layout {
+text-align: left;
+
+}
+div.bibliography {
+	margin-left: 2em;
+	text-indent: -2em;
+}
+span.bibitemlabel:before { content: "["; }
+span.bibitemlabel:after { content: "] "; }
+div.float {
+	border: 2px solid black;
+	text-align: center;
+}
+div.float-caption {
+	text-align: center;
+	border: 2px solid black;
+	padding: 1ex;
+	margin: 1ex;
+}
+
+
+</style>
+</head>
+<body dir="auto">
+<h1 class="title" id='magicparlabel-1'>COL783: Assignment 3</h1>
+<div class="author" id='magicparlabel-2'>Naman Jain (2020anz8848) and Siddharth Shrivastava (2020anz8849)</div>
+<h2 class="section" id='magicparlabel-3'><span class="section_label">1</span> Objective</h2>
+<div class="standard" id='magicparlabel-4'>Resize the image using seams carving technique</div>
+<h2 class="section" id='magicparlabel-5'><span class="section_label">2</span> Seam Removal</h2>
+<div class="standard" id='magicparlabel-6'>Flowchart in the Figure 1 process of removing the seam from an image. Same process is applicable for Vertical and Horizontal seam removal.</div>
+
+
+<div class='float-figure'><div class="plain_layout" style='text-align: center;' id='magicparlabel-11'><img src='0C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Flowcharts_Seam_carving.svg' alt='image: 0C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Flowcharts_Seam_carving.svg' />
+<span class='float-caption-Standard float-caption float-caption-standard'>Figure 1:  Seam removal</span></div>
+
+
+</div>
+<div class='float-figure'><div class="plain_layout" style='text-align: center;' id='magicparlabel-20'><img style=' height:30%;' src='1C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Code_output_Reduction_castle_ver_grad.svg' alt='image: 1C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Code_output_Reduction_castle_ver_grad.svg' />
+<img style=' height:30%;' src='2C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Code_output_Reduction_castle_ver_HoG.svg' alt='image: 2C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Code_output_Reduction_castle_ver_HoG.svg' />
+<img style=' height:30%;' src='3C__Users_nsahu_Documents_Semester-I_COL783_Ass____3_Code_output_Reduction_castle_ver_entropy.svg' alt='image: 3C__Users_nsahu_Documents_Semester-I_COL783_Ass____3_Code_output_Reduction_castle_ver_entropy.svg' />
+<span class='float-caption-Standard float-caption float-caption-standard'>Figure 2:  Different Energy functions for an image</span></div>
+</div>
+<div class='float-figure'><div class="plain_layout" style='text-align: center;' id='magicparlabel-28'><img style=' height:30%;' src='4C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Code_output_Reduction_castle_ver.svg' alt='image: 4C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Code_output_Reduction_castle_ver.svg' />
+<img style=' height:30%;' src='5C__Users_nsahu_Documents_Semester-I_COL783_Ass___t_3_Code_output_Reduction_castle_ver_hog_im.svg' alt='image: 5C__Users_nsahu_Documents_Semester-I_COL783_Ass___t_3_Code_output_Reduction_castle_ver_hog_im.svg' />
+<img style=' height:30%;' src='6C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Code_output_Reduction_castle_ver_ent.svg' alt='image: 6C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Code_output_Reduction_castle_ver_ent.svg' />
+<span class='float-caption-Standard float-caption float-caption-standard'>Figure 3:  Result for Vertical Seam Carving</span></div>
+</div>
+
+
+
+<div class='float-figure'><div class="plain_layout" style='text-align: center;' id='magicparlabel-37'><img style=' height:30%;' src='7C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Code_output_Reduction_beach_hor_grad.svg' alt='image: 7C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Code_output_Reduction_beach_hor_grad.svg' />
+<img style=' height:30%;' src='8C__Users_nsahu_Documents_Semester-I_COL783_Ass___t_3_Code_output_Reduction_beach_hor_entropy.svg' alt='image: 8C__Users_nsahu_Documents_Semester-I_COL783_Ass___t_3_Code_output_Reduction_beach_hor_entropy.svg' />
+<span class='float-caption-Standard float-caption float-caption-standard'>Figure 4:  Different Energy functions for an image</span></div>
+</div>
+<div class='float-figure'><div class="plain_layout" style='text-align: center;' id='magicparlabel-45'><img style=' height:30%;' src='9C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Code_output_Reduction_beach_hor.svg' alt='image: 9C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Code_output_Reduction_beach_hor.svg' />
+<img style=' height:30%;' src='10C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Code_output_Reduction_beach_hor_ent.svg' alt='image: 10C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Code_output_Reduction_beach_hor_ent.svg' />
+<span class='float-caption-Standard float-caption float-caption-standard'>Figure 5:  Result for Horizontal Seam Carving</span></div>
+</div>
+
+<h2 class="section" id='magicparlabel-50'><span class="section_label">3</span> Seam Removal</h2>
+<div class="standard" id='magicparlabel-51'>Flowchart in the Figure 6 process of seam insertion in image. Same process is applicable for Vertical and Horizontal seam insertion.</div>
+
+
+<div class='float-figure'><div class="plain_layout" style='text-align: center;' id='magicparlabel-56'><img src='11C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Flowcharts_Seam_insertion.svg' alt='image: 11C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Flowcharts_Seam_insertion.svg' />
+<span class='float-caption-Standard float-caption float-caption-standard'>Figure 6:  Seam Insertion</span></div>
+</div>
+<div class='float-figure'><div class="plain_layout" style='text-align: center;' id='magicparlabel-64'><img style=' height:30%;' src='12C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Code_output_insert_Dolphin_seams.svg' alt='image: 12C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Code_output_insert_Dolphin_seams.svg' />
+<img style=' height:30%;' src='13C__Users_nsahu_Documents_Semester-I_COL783_As____3_Code_output_insert_Dolphin_seams_entropy.svg' alt='image: 13C__Users_nsahu_Documents_Semester-I_COL783_As____3_Code_output_insert_Dolphin_seams_entropy.svg' />
+<span class='float-caption-Standard float-caption float-caption-standard'>Figure 7:  Seams for Different Energy functions for an image</span></div>
+</div>
+<div class='float-figure'><div class="plain_layout" style='text-align: center;' id='magicparlabel-72'><img style=' height:30%;' src='14C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Code_output_insert_Dolphin_ver.svg' alt='image: 14C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Code_output_insert_Dolphin_ver.svg' />
+<img style=' height:30%;' src='15C__Users_nsahu_Documents_Semester-I_COL783_As___nt_3_Code_output_insert_Dolphin_ver_entropy.svg' alt='image: 15C__Users_nsahu_Documents_Semester-I_COL783_As___nt_3_Code_output_insert_Dolphin_ver_entropy.svg' />
+<span class='float-caption-Standard float-caption float-caption-standard'>Figure 8:  Result for Horizontal Seam Insertion</span></div>
+</div>
+
+
+
+<div class='float-figure'><div class="plain_layout" style='text-align: center;' id='magicparlabel-81'><img style=' height:30%;' src='16C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Code_output_insert_Beach_semas.svg' alt='image: 16C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Code_output_insert_Beach_semas.svg' />
+<img style=' height:30%;' src='17C__Users_nsahu_Documents_Semester-I_COL783_As___nt_3_Code_output_insert_Beach_seams_entropy.svg' alt='image: 17C__Users_nsahu_Documents_Semester-I_COL783_As___nt_3_Code_output_insert_Beach_seams_entropy.svg' />
+<span class='float-caption-Standard float-caption float-caption-standard'>Figure 9:  Seams for Different Energy functions for an image</span></div>
+</div>
+<div class='float-figure'><div class="plain_layout" style='text-align: center;' id='magicparlabel-89'><img style=' height:30%;' src='18C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Code_output_insert_Beach_hor.svg' alt='image: 18C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Code_output_insert_Beach_hor.svg' />
+<span class='float-caption-Standard float-caption float-caption-standard'>Figure 10:  Result for Horizontal Seam Insertion</span></div>
+</div>
+
+<h2 class="section" id='magicparlabel-482'><span class="section_label">4</span> Optimal Seam Carving</h2>
+<div class="standard" id='magicparlabel-483'>Flowchart in the Figure 11 process to get the optimal steps for resizing the image in both direction. </div>
+
+
+<div class='float-figure'><div class="plain_layout" style='text-align: center;' id='magicparlabel-1283'><img src='19C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Flowcharts_Optimal_seam_carve.svg' alt='image: 19C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Flowcharts_Optimal_seam_carve.svg' />
+<span class='float-caption-Standard float-caption float-caption-standard'>Figure 11:  Optimal Seam Reduction</span></div>
+</div>
+<div class='float-figure'><div class="plain_layout" style='text-align: center;' id='magicparlabel-1285'><img style=' height:30%;' src='20C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Images_butterfly_1.jpg' alt='image: 20C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Images_butterfly_1.jpg' />
+<img style=' height:30%;' src='21C__Users_nsahu_Documents_Semester-I_COL783_As___t_3_Code_output_Opt_sub_butterfly_1_optimal.svg' alt='image: 21C__Users_nsahu_Documents_Semester-I_COL783_As___t_3_Code_output_Opt_sub_butterfly_1_optimal.svg' />
+<img style=' height:30%;' src='22C__Users_nsahu_Documents_Semester-I_COL783_As___t_Opt_sub_butterfly_1_sub_optimal_alternate.svg' alt='image: 22C__Users_nsahu_Documents_Semester-I_COL783_As___t_Opt_sub_butterfly_1_sub_optimal_alternate.svg' />
+<img style=' height:30%;' src='23C__Users_nsahu_Documents_Semester-I_COL783_As___put_Opt_sub_butterfly_1_sub_optimal_hor_ver.svg' alt='image: 23C__Users_nsahu_Documents_Semester-I_COL783_As___put_Opt_sub_butterfly_1_sub_optimal_hor_ver.svg' />
+<img style=' height:30%;' src='24C__Users_nsahu_Documents_Semester-I_COL783_As___put_Opt_sub_butterfly_1_sub_optimal_ver_hor.svg' alt='image: 24C__Users_nsahu_Documents_Semester-I_COL783_As___put_Opt_sub_butterfly_1_sub_optimal_ver_hor.svg' />
+<span class='float-caption-Standard float-caption float-caption-standard'>Figure 12:  Optimal resize with gradient energy function, original,optimal, alternate, hor_ver and ver_hor</span></div>
+</div>
+<div class='float-figure'><div class="plain_layout" style='text-align: center;' id='magicparlabel-1287'><img style=' height:30%;' src='25C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Code_output_Energy_Butterfly_1_HoG.svg' alt='image: 25C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Code_output_Energy_Butterfly_1_HoG.svg' />
+<img style=' height:30%;' src='26C__Users_nsahu_Documents_Semester-I_COL783_As___nt_3_Code_output_Energy_Butterfly_1_entropy.svg' alt='image: 26C__Users_nsahu_Documents_Semester-I_COL783_As___nt_3_Code_output_Energy_Butterfly_1_entropy.svg' />
+<span class='float-caption-Standard float-caption float-caption-standard'>Figure 13:  Seams for Different Energy functions for an image</span></div>
+</div>
+<div class='float-figure'><div class="plain_layout" style='text-align: center;' id='magicparlabel-1289'><img style=' height:30%;' src='27C__Users_nsahu_Documents_Semester-I_COL783_As___put_Energy_Butterfly_1_HoG_subopt_alternate.svg' alt='image: 27C__Users_nsahu_Documents_Semester-I_COL783_As___put_Energy_Butterfly_1_HoG_subopt_alternate.svg' />
+<img style=' height:30%;' src='28C__Users_nsahu_Documents_Semester-I_COL783_As___Energy_Butterfly_1_entropy_subopt_alternate.svg' alt='image: 28C__Users_nsahu_Documents_Semester-I_COL783_As___Energy_Butterfly_1_entropy_subopt_alternate.svg' />
+<span class='float-caption-Standard float-caption float-caption-standard'>Figure 14:  HoG and Entropy, sub_opt alternate seam removal</span></div>
+</div>
+<div class='float-figure'><div class="plain_layout" style='text-align: center;' id='magicparlabel-1454'><img style=' height:30%;' src='29C__Users_nsahu_Documents_Semester-I_COL783_As___utput_Energy_Butterfly_1_HoG_subopt_hor_ver.svg' alt='image: 29C__Users_nsahu_Documents_Semester-I_COL783_As___utput_Energy_Butterfly_1_HoG_subopt_hor_ver.svg' />
+<img style=' height:30%;' src='39C__Users_nsahu_Documents_Semester-I_COL783_As___t_Energy_Butterfly_1_entropy_subopt_hor_ver.PNG' alt='image: 39C__Users_nsahu_Documents_Semester-I_COL783_As___t_Energy_Butterfly_1_entropy_subopt_hor_ver.PNG' />
+<span class='float-caption-Standard float-caption float-caption-standard'>Figure 15:  HoG and Entropy, sub_opt with horizontal then vertical</span></div>
+</div>
+<div class='float-figure'><div class="plain_layout" style='text-align: center;' id='magicparlabel-1293'><img style=' height:30%;' src='31C__Users_nsahu_Documents_Semester-I_COL783_As___utput_Energy_Butterfly_1_HoG_subopt_ver_hor.svg' alt='image: 31C__Users_nsahu_Documents_Semester-I_COL783_As___utput_Energy_Butterfly_1_HoG_subopt_ver_hor.svg' />
+<img style=' height:30%;' src='32C__Users_nsahu_Documents_Semester-I_COL783_As___t_Energy_Butterfly_1_entropy_subopt_ver_hor.svg' alt='image: 32C__Users_nsahu_Documents_Semester-I_COL783_As___t_Energy_Butterfly_1_entropy_subopt_ver_hor.svg' />
+<span class='float-caption-Standard float-caption float-caption-standard'>Figure 16:  HoG and Entropy, sub_opt with vertical then horizontal</span></div>
+</div>
+
+<h2 class="section" id='magicparlabel-145'><span class="section_label">5</span> Object Removal</h2>
+<div class="standard" id='magicparlabel-146'>To remove an object, user need to provide/draw mask using free assisted ROI in matlab. User can also provide mask to preserve object in the image.</div>
+
+
+<div class='float-figure'><div class="plain_layout" style='text-align: center;' id='magicparlabel-151'><img style=' height:30%;' src='33C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Images_balloon.png' alt='image: 33C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Images_balloon.png' />
+<img style=' height:30%;' src='34C__Users_nsahu_Documents_Semester-I_COL783_As___Code_output_object_remove_balloon_final_hor.svg' alt='image: 34C__Users_nsahu_Documents_Semester-I_COL783_As___Code_output_object_remove_balloon_final_hor.svg' />
+<img style=' height:30%;' src='35C__Users_nsahu_Documents_Semester-I_COL783_As___Code_output_object_remove_balloon_final_ver.svg' alt='image: 35C__Users_nsahu_Documents_Semester-I_COL783_As___Code_output_object_remove_balloon_final_ver.svg' />
+<span class='float-caption-Standard float-caption float-caption-standard'>Figure 17:  Original image and image with horizontal and vertical seam removal</span></div>
+</div>
+<div class='float-figure'><div class="plain_layout" style='text-align: center;' id='magicparlabel-159'><img style=' height:30%;' src='36C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Images_couple.png' alt='image: 36C__Users_nsahu_Documents_Semester-I_COL783_Assignment_3_Images_couple.png' />
+<img style=' height:30%;' src='37C__Users_nsahu_Documents_Semester-I_COL783_As___nt_3_Code_output_object_remove_couple_final.svg' alt='image: 37C__Users_nsahu_Documents_Semester-I_COL783_As___nt_3_Code_output_object_remove_couple_final.svg' />
+<img style=' height:30%;' src='38C__Users_nsahu_Documents_Semester-I_COL783_As___ode_output_object_remove_couple_double_mask.svg' alt='image: 38C__Users_nsahu_Documents_Semester-I_COL783_As___ode_output_object_remove_couple_double_mask.svg' />
+<span class='float-caption-Standard float-caption float-caption-standard'>Figure 18:  Original image and image with and without priority mask</span></div>
+</div>
+
+<h2 class='bibliography'>References</h2>
+
+<div class='bibliography'><div class="bibliography" id='magicparlabel-164'><a id='LyXCite-key_2' />
+<span class='bibitemlabel'>1</span>Guo D, Sim T. Digital face makeup by example. In2009 IEEE Conference on Computer Vision and Pattern Recognition 2009 Jun 20 (pp. 73-79). IEEE.</div>
+
+<div class="bibliography" id='magicparlabel-165'><a id='LyXCite-key_3' />
+<span class='bibitemlabel'>2</span>Winnemöller H, Kyprianidis JE, Olsen SC. Xdog: an extended difference-of-gaussians compendium including advanced image stylization. Computers &amp; Graphics. 2012 Oct 1;36(6):740-53.</div>
+
+<div class="bibliography" id='magicparlabel-166'><a id='LyXCite-key_1' />
+<span class='bibitemlabel'>3</span>Zhanpeng Zhang, Ping Luo, Chen Change Loy, Xiaoou Tang. Facial Landmark Detection by Deep Multi-task Learning, in Proceedings of European Conference on Computer Vision (ECCV), 2014</div>
+</div></body>
+</html>

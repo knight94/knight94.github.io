@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="60cm" height="11cm" viewBox="54 86 1181 217" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="55.9" y="87" width="255" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="55.9" y="87" width="255" height="80"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="183.4" y="132.075">
+    <tspan x="183.4" y="132.075">Calculate Energy map</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="364.418" y="87" width="255" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="364.418" y="87" width="255" height="80"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="491.918" y="132.075">
+    <tspan x="491.918" y="132.075">Calculate Accumulated Energy map</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="671.482" y="87" width="255" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="671.482" y="87" width="255" height="80"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="798.982" y="132.075">
+    <tspan x="798.982" y="132.075">Backtrack to get the lowest energy seam</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="979.646" y="87" width="255" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="979.646" y="87" width="255" height="80"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1107.15" y="132.075">
+    <tspan x="1107.15" y="132.075">Remove the pixel from Image in the seams</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="979.646" y="221.5" width="255" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="979.646" y="221.5" width="255" height="80"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1107.15" y="266.382">
+    <tspan x="1107.15" y="266.382">Repeat to get K seams using new Image</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="310.9" y1="127" x2="354.682" y2="127"/>
+    <polygon style="fill: #000000" points="362.182,127 352.182,132 354.682,127 352.182,122 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="362.182,127 352.182,132 354.682,127 352.182,122 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="620.421" y1="127" x2="661.746" y2="127"/>
+    <polygon style="fill: #000000" points="669.246,127 659.246,132 661.746,127 659.246,122 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="669.246,127 659.246,132 661.746,127 659.246,122 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="926.482" y1="127" x2="969.91" y2="127"/>
+    <polygon style="fill: #000000" points="977.41,127 967.41,132 969.91,127 967.41,122 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="977.41,127 967.41,132 969.91,127 967.41,122 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1107.15" y1="167" x2="1107.15" y2="211.764"/>
+    <polygon style="fill: #000000" points="1107.15,219.264 1102.15,209.264 1107.15,211.764 1112.15,209.264 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1107.15,219.264 1102.15,209.264 1107.15,211.764 1112.15,209.264 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="979.646,261.5 183.4,261.5 183.4,176.736 "/>
+    <polygon style="fill: #000000" points="183.4,169.236 188.4,179.236 183.4,176.736 178.4,179.236 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="183.4,169.236 188.4,179.236 183.4,176.736 178.4,179.236 "/>
+  </g>
+</svg>
